@@ -39,7 +39,7 @@ function App() {
       <div className="py-5">
       
       {colores.map((color, index) => (
-          <Card key={index}>
+          <Card key={index} className="shadow">
             <Card.Body>
               <Card.Title>{color}</Card.Title>
               <Button variant="danger" onClick={() => handleDeleteColor(index)}>
