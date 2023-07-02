@@ -35,7 +35,7 @@ function App() {
       <input type="text" value={title} onChange={handleTitleChange} />
       <button onClick={handleSaveColor} className="btn-edit">Guardar</button>
       </div>
-   
+ <h1>Hola soy un mensaje</h1>  
       <div className="py-5">
       
       {colores.map((color, index) => (
